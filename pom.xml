@@ -6,10 +6,10 @@
 	<version>20.0.4-SNAPSHOT</version>
 	<name>DevOps Demo Project</name>
 	<url>http://maven.apache.org</url>
-	<properties>
-		<sonar.host.url>http://35.154.128.7:9000</sonar.host.url>
-	</properties>
 	
+	<properties>
+                <sonar.host.url>http://35.154.128.7:9000/</sonar.host.url>
+        </properties>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
